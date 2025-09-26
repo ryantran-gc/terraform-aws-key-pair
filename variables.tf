@@ -32,6 +32,12 @@ variable "public_key" {
   default     = ""
 }
 
+variable "region" {
+  description = "The public key material"
+  type        = string
+  default     = ""
+}
+
 ################################################################################
 # Private Key
 ################################################################################
